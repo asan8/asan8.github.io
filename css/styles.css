@@ -1,5 +1,6 @@
 html{
     font-size: 62.5%;
+    font-family: 'Ubuntu Mono', monospace;
 }
 
 body{
@@ -9,7 +10,6 @@ body{
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
-    max-width: 100%;
     margin: 0;
     display: flex;
     align-items: center;
@@ -17,7 +17,7 @@ body{
 
 .subBackground{
     width: 95%;
-    height: 85rem;
+    height: 75rem;
     margin: 5rem auto;
     border-radius: 3rem;
     background-color: rgba(0, 0, 0, 0);
@@ -31,12 +31,15 @@ body{
 
 @media (min-width: 480px) {
     .subBackground{
-        align-items: center;
+        padding-top: 5rem;
+        height: 78rem;
     }
+
+    
 }
 .content{
     text-align: center;
-    padding: 5rem;
+    padding: 3.5rem;
 }
 
 .logo{
@@ -47,6 +50,15 @@ body{
 
 .limiter{
     font-size: 3rem;
+}
+
+.limiter--{
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+.limiter span{
+    font-size: 2.5rem;
 }
 
 .emoji{
