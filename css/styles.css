@@ -68,6 +68,14 @@ body{
     font-size: 2rem;
 }
 
+.insta{
+    cursor: pointer;
+}
+
+.enlace{
+    text-decoration: none;
+}
+
 .links{
     display: flex;
     flex-direction: column;
