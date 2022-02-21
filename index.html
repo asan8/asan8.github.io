@@ -6,15 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="build/css/normalize.css">
+    <link rel="stylesheet" href="build/css/styles.css">
     <title>Landing</title>
 </head>
 
 <body>
     <div class="subBackground">
         <div class="content">
-            <img class="logo" src="img/asan8logo5.png" alt="logo">
+            <picture >
+                <source srcset="build/img/asan8logo5.avif" type="image/avif">
+                <img class="logo" src="build/img/asan8logo5.png" alt="logo">
+            </picture>
             <p class="limiter">---------------</p>
             <p class="emoji">🎓 Software Engineering @UPM</p>
             <p class="emoji">🌐 Frontend Developer<br>(HTML/CSS/JavaScript)</p>
